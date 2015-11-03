@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04C5D70E1BE89FE500631501 /* TSMessages-ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C5D70D1BE89FE500631501 /* TSMessages-ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04C5D7121BE89FE500631501 /* TSMessages_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C5D70B1BE89FE500631501 /* TSMessages_ios.framework */; };
+		04C5D7141BE89FE500631501 /* TSMessages_ios.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04C5D70B1BE89FE500631501 /* TSMessages_ios.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04C5D71B1BE8A07100631501 /* TSBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C5D7181BE8A07100631501 /* TSBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04C5D71C1BE8A07100631501 /* TSMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C5D7191BE8A07100631501 /* TSMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04C5D71D1BE8A07100631501 /* TSMessageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C5D71A1BE8A07100631501 /* TSMessageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1687DD9DDD3F49028DE52098 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D24C674F90784EC4AFFD8541 /* libPods-Tests.a */; };
 		2673C7B7BE2142E78B40DEE7 /* libPods-TSMessages.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA65AE9564E43409150BC5E /* libPods-TSMessages.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -28,6 +34,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		04C5D7101BE89FE500631501 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C5D70A1BE89FE500631501;
+			remoteInfo = "TSMessages-ios";
+		};
 		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
@@ -37,7 +50,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		04C5D7131BE89FE500631501 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				04C5D7141BE89FE500631501 /* TSMessages_ios.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		04C5D70B1BE89FE500631501 /* TSMessages_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TSMessages_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C5D70D1BE89FE500631501 /* TSMessages-ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TSMessages-ios.h"; sourceTree = "<group>"; };
+		04C5D70F1BE89FE500631501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C5D7181BE8A07100631501 /* TSBlurView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TSBlurView.h; path = ../Pod/Classes/TSBlurView.h; sourceTree = "<group>"; };
+		04C5D7191BE8A07100631501 /* TSMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TSMessage.h; path = ../Pod/Classes/TSMessage.h; sourceTree = "<group>"; };
+		04C5D71A1BE8A07100631501 /* TSMessageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TSMessageView.h; path = ../Pod/Classes/TSMessageView.h; sourceTree = "<group>"; };
 		06A5FE5AC1E4219F023CBC21 /* Pods-TSMessages.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSMessages.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TSMessages/Pods-TSMessages.debug.xcconfig"; sourceTree = "<group>"; };
 		26865537F27698DE43A2B821 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3DA65AE9564E43409150BC5E /* libPods-TSMessages.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSMessages.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,11 +106,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		04C5D7071BE89FE500631501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F587195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				04C5D7121BE89FE500631501 /* TSMessages_ios.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				2673C7B7BE2142E78B40DEE7 /* libPods-TSMessages.a in Frameworks */,
@@ -98,6 +139,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04C5D70C1BE89FE500631501 /* TSMessages-ios */ = {
+			isa = PBXGroup;
+			children = (
+				04C5D70D1BE89FE500631501 /* TSMessages-ios.h */,
+				04C5D70F1BE89FE500631501 /* Info.plist */,
+			);
+			path = "TSMessages-ios";
+			sourceTree = "<group>";
+		};
 		5EE795FD5FA60C5F6C45E97E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,9 +162,13 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				04C5D7181BE8A07100631501 /* TSBlurView.h */,
+				04C5D7191BE8A07100631501 /* TSMessage.h */,
+				04C5D71A1BE8A07100631501 /* TSMessageView.h */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* TSMessages */,
 				6003F5B5195388D20070C39A /* Tests */,
+				04C5D70C1BE89FE500631501 /* TSMessages-ios */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				5EE795FD5FA60C5F6C45E97E /* Pods */,
@@ -126,6 +180,7 @@
 			children = (
 				6003F58A195388D20070C39A /* TSMessages.app */,
 				6003F5AE195388D20070C39A /* Tests.xctest */,
+				04C5D70B1BE89FE500631501 /* TSMessages_ios.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -202,7 +257,39 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		04C5D7081BE89FE500631501 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C5D70E1BE89FE500631501 /* TSMessages-ios.h in Headers */,
+				04C5D71B1BE8A07100631501 /* TSBlurView.h in Headers */,
+				04C5D71C1BE8A07100631501 /* TSMessage.h in Headers */,
+				04C5D71D1BE8A07100631501 /* TSMessageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		04C5D70A1BE89FE500631501 /* TSMessages_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C5D7171BE89FE500631501 /* Build configuration list for PBXNativeTarget "TSMessages_ios" */;
+			buildPhases = (
+				04C5D7061BE89FE500631501 /* Sources */,
+				04C5D7071BE89FE500631501 /* Frameworks */,
+				04C5D7081BE89FE500631501 /* Headers */,
+				04C5D7091BE89FE500631501 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSMessages_ios;
+			productName = "TSMessages-ios";
+			productReference = 04C5D70B1BE89FE500631501 /* TSMessages_ios.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		6003F589195388D20070C39A /* TSMessages */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "TSMessages" */;
@@ -212,10 +299,12 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				98597394645B47438D90BF4D /* Copy Pods Resources */,
+				04C5D7131BE89FE500631501 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				04C5D7111BE89FE500631501 /* PBXTargetDependency */,
 			);
 			name = TSMessages;
 			productName = TSMessages;
@@ -252,6 +341,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Felix Krause";
 				TargetAttributes = {
+					04C5D70A1BE89FE500631501 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -272,11 +364,19 @@
 			targets = (
 				6003F589195388D20070C39A /* TSMessages */,
 				6003F5AD195388D20070C39A /* Tests */,
+				04C5D70A1BE89FE500631501 /* TSMessages_ios */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		04C5D7091BE89FE500631501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F588195388D20070C39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -362,6 +462,13 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		04C5D7061BE89FE500631501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -384,6 +491,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		04C5D7111BE89FE500631501 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C5D70A1BE89FE500631501 /* TSMessages_ios */;
+			targetProxy = 04C5D7101BE89FE500631501 /* PBXContainerItemProxy */;
+		};
 		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6003F589195388D20070C39A /* TSMessages */;
@@ -419,6 +531,58 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		04C5D7151BE89FE500631501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "TSMessages-ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.TSMessages-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		04C5D7161BE89FE500631501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "TSMessages-ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.TSMessages-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		6003F5BD195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -500,6 +664,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TSMessages/TSMessages-Prefix.pch";
 				INFOPLIST_FILE = "TSMessages/TSMessages-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -514,6 +679,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TSMessages/TSMessages-Prefix.pch";
 				INFOPLIST_FILE = "TSMessages/TSMessages-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -564,6 +730,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		04C5D7171BE89FE500631501 /* Build configuration list for PBXNativeTarget "TSMessages_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C5D7151BE89FE500631501 /* Debug */,
+				04C5D7161BE89FE500631501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		6003F585195388D10070C39A /* Build configuration list for PBXProject "TSMessages" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
