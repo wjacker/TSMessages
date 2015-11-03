@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04C5D7121BE89FE500631501 /* TSMessages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C5D70B1BE89FE500631501 /* TSMessages.framework */; };
-		04C5D7141BE89FE500631501 /* TSMessages.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04C5D70B1BE89FE500631501 /* TSMessages.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04C5D7121BE89FE500631501 /* TSMessage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C5D70B1BE89FE500631501 /* TSMessage.framework */; };
+		04C5D7141BE89FE500631501 /* TSMessage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04C5D70B1BE89FE500631501 /* TSMessage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04C5D71B1BE8A07100631501 /* TSBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C5D7181BE8A07100631501 /* TSBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04C5D71C1BE8A07100631501 /* TSMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C5D7191BE8A07100631501 /* TSMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04C5D71D1BE8A07100631501 /* TSMessageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C5D71A1BE8A07100631501 /* TSMessageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -56,7 +56,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				04C5D7141BE89FE500631501 /* TSMessages.framework in Embed Frameworks */,
+				04C5D7141BE89FE500631501 /* TSMessage.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,7 +64,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		04C5D70B1BE89FE500631501 /* TSMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TSMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C5D70B1BE89FE500631501 /* TSMessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TSMessage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C5D70D1BE89FE500631501 /* TSMessages-ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TSMessages-ios.h"; sourceTree = "<group>"; };
 		04C5D70F1BE89FE500631501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04C5D7181BE8A07100631501 /* TSBlurView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TSBlurView.h; path = ../Pod/Classes/TSBlurView.h; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 		3DA65AE9564E43409150BC5E /* libPods-TSMessages.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSMessages.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C10E90825C54E85A5FD6274 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4DFA0B2B12013C4CF24E26C1 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* TSMessages_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSMessages_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* TSMessages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSMessages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -117,7 +117,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
-				04C5D7121BE89FE500631501 /* TSMessages.framework in Frameworks */,
+				04C5D7121BE89FE500631501 /* TSMessage.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				2673C7B7BE2142E78B40DEE7 /* libPods-TSMessages.a in Frameworks */,
@@ -177,9 +177,9 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* TSMessages_demo.app */,
+				6003F58A195388D20070C39A /* TSMessages.app */,
 				6003F5AE195388D20070C39A /* Tests.xctest */,
-				04C5D70B1BE89FE500631501 /* TSMessages.framework */,
+				04C5D70B1BE89FE500631501 /* TSMessage.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -270,9 +270,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		04C5D70A1BE89FE500631501 /* TSMessages */ = {
+		04C5D70A1BE89FE500631501 /* TSMessage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04C5D7171BE89FE500631501 /* Build configuration list for PBXNativeTarget "TSMessages" */;
+			buildConfigurationList = 04C5D7171BE89FE500631501 /* Build configuration list for PBXNativeTarget "TSMessage" */;
 			buildPhases = (
 				04C5D7061BE89FE500631501 /* Sources */,
 				04C5D7071BE89FE500631501 /* Frameworks */,
@@ -283,14 +283,14 @@
 			);
 			dependencies = (
 			);
-			name = TSMessages;
+			name = TSMessage;
 			productName = "TSMessages-ios";
-			productReference = 04C5D70B1BE89FE500631501 /* TSMessages.framework */;
+			productReference = 04C5D70B1BE89FE500631501 /* TSMessage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6003F589195388D20070C39A /* TSMessages_demo */ = {
+		6003F589195388D20070C39A /* TSMessages */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "TSMessages_demo" */;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "TSMessages" */;
 			buildPhases = (
 				573E6F60FE3A47EF8559C1CC /* Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
@@ -304,9 +304,9 @@
 			dependencies = (
 				04C5D7111BE89FE500631501 /* PBXTargetDependency */,
 			);
-			name = TSMessages_demo;
+			name = TSMessages;
 			productName = TSMessages;
-			productReference = 6003F58A195388D20070C39A /* TSMessages_demo.app */;
+			productReference = 6003F58A195388D20070C39A /* TSMessages.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* Tests */ = {
@@ -360,9 +360,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F589195388D20070C39A /* TSMessages_demo */,
+				6003F589195388D20070C39A /* TSMessages */,
 				6003F5AD195388D20070C39A /* Tests */,
-				04C5D70A1BE89FE500631501 /* TSMessages */,
+				04C5D70A1BE89FE500631501 /* TSMessage */,
 			);
 		};
 /* End PBXProject section */
@@ -491,12 +491,12 @@
 /* Begin PBXTargetDependency section */
 		04C5D7111BE89FE500631501 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 04C5D70A1BE89FE500631501 /* TSMessages */;
+			target = 04C5D70A1BE89FE500631501 /* TSMessage */;
 			targetProxy = 04C5D7101BE89FE500631501 /* PBXContainerItemProxy */;
 		};
 		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* TSMessages_demo */;
+			target = 6003F589195388D20070C39A /* TSMessages */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -728,7 +728,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04C5D7171BE89FE500631501 /* Build configuration list for PBXNativeTarget "TSMessages" */ = {
+		04C5D7171BE89FE500631501 /* Build configuration list for PBXNativeTarget "TSMessage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04C5D7151BE89FE500631501 /* Debug */,
@@ -746,7 +746,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "TSMessages_demo" */ = {
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "TSMessages" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,
