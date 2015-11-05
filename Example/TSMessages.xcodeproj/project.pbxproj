@@ -11,11 +11,11 @@
 		0401B8371BEAF03D00BB9F42 /* TSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401B8311BEAF03D00BB9F42 /* TSBlurView.m */; settings = {ASSET_TAGS = (); }; };
 		0401B8381BEAF03D00BB9F42 /* TSMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401B8331BEAF03D00BB9F42 /* TSMessage.m */; settings = {ASSET_TAGS = (); }; };
 		0401B8391BEAF03D00BB9F42 /* TSMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401B8351BEAF03D00BB9F42 /* TSMessageView.m */; settings = {ASSET_TAGS = (); }; };
-		0401B83A1BEAF04500BB9F42 /* TSBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0401B8301BEAF03D00BB9F42 /* TSBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0401B83A1BEAF04500BB9F42 /* TSBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0401B8301BEAF03D00BB9F42 /* TSBlurView.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		0401B83B1BEAF04900BB9F42 /* TSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401B8311BEAF03D00BB9F42 /* TSBlurView.m */; settings = {ASSET_TAGS = (); }; };
 		0401B83C1BEAF04C00BB9F42 /* TSMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0401B8321BEAF03D00BB9F42 /* TSMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0401B83D1BEAF04F00BB9F42 /* TSMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401B8331BEAF03D00BB9F42 /* TSMessage.m */; settings = {ASSET_TAGS = (); }; };
-		0401B83E1BEAF05200BB9F42 /* TSMessageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0401B8341BEAF03D00BB9F42 /* TSMessageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0401B83E1BEAF05200BB9F42 /* TSMessageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0401B8341BEAF03D00BB9F42 /* TSMessageView.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		0401B83F1BEAF05600BB9F42 /* TSMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401B8351BEAF03D00BB9F42 /* TSMessageView.m */; settings = {ASSET_TAGS = (); }; };
 		0401B8481BEAF23900BB9F42 /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401B8471BEAF23900BB9F42 /* HexColors.m */; settings = {ASSET_TAGS = (); }; };
 		0401B8491BEAF24A00BB9F42 /* HexColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 0401B8461BEAF23900BB9F42 /* HexColors.h */; settings = {ASSET_TAGS = (); }; };
