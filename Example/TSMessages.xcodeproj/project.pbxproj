@@ -7,11 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0401B8361BEAF03D00BB9F42 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 0401B82F1BEAF03D00BB9F42 /* .gitkeep */; settings = {ASSET_TAGS = (); }; };
+		0401B8371BEAF03D00BB9F42 /* TSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401B8311BEAF03D00BB9F42 /* TSBlurView.m */; settings = {ASSET_TAGS = (); }; };
+		0401B8381BEAF03D00BB9F42 /* TSMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401B8331BEAF03D00BB9F42 /* TSMessage.m */; settings = {ASSET_TAGS = (); }; };
+		0401B8391BEAF03D00BB9F42 /* TSMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401B8351BEAF03D00BB9F42 /* TSMessageView.m */; settings = {ASSET_TAGS = (); }; };
+		0401B83A1BEAF04500BB9F42 /* TSBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0401B8301BEAF03D00BB9F42 /* TSBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0401B83B1BEAF04900BB9F42 /* TSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401B8311BEAF03D00BB9F42 /* TSBlurView.m */; settings = {ASSET_TAGS = (); }; };
+		0401B83C1BEAF04C00BB9F42 /* TSMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0401B8321BEAF03D00BB9F42 /* TSMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0401B83D1BEAF04F00BB9F42 /* TSMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401B8331BEAF03D00BB9F42 /* TSMessage.m */; settings = {ASSET_TAGS = (); }; };
+		0401B83E1BEAF05200BB9F42 /* TSMessageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0401B8341BEAF03D00BB9F42 /* TSMessageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0401B83F1BEAF05600BB9F42 /* TSMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401B8351BEAF03D00BB9F42 /* TSMessageView.m */; settings = {ASSET_TAGS = (); }; };
 		04C5D7121BE89FE500631501 /* TSMessage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C5D70B1BE89FE500631501 /* TSMessage.framework */; };
 		04C5D7141BE89FE500631501 /* TSMessage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04C5D70B1BE89FE500631501 /* TSMessage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04C5D71B1BE8A07100631501 /* TSBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C5D7181BE8A07100631501 /* TSBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04C5D71C1BE8A07100631501 /* TSMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C5D7191BE8A07100631501 /* TSMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04C5D71D1BE8A07100631501 /* TSMessageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C5D71A1BE8A07100631501 /* TSMessageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1687DD9DDD3F49028DE52098 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D24C674F90784EC4AFFD8541 /* libPods-Tests.a */; };
 		2673C7B7BE2142E78B40DEE7 /* libPods-TSMessages.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA65AE9564E43409150BC5E /* libPods-TSMessages.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -64,12 +71,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0401B82F1BEAF03D00BB9F42 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		0401B8301BEAF03D00BB9F42 /* TSBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSBlurView.h; sourceTree = "<group>"; };
+		0401B8311BEAF03D00BB9F42 /* TSBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSBlurView.m; sourceTree = "<group>"; };
+		0401B8321BEAF03D00BB9F42 /* TSMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMessage.h; sourceTree = "<group>"; };
+		0401B8331BEAF03D00BB9F42 /* TSMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMessage.m; sourceTree = "<group>"; };
+		0401B8341BEAF03D00BB9F42 /* TSMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMessageView.h; sourceTree = "<group>"; };
+		0401B8351BEAF03D00BB9F42 /* TSMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMessageView.m; sourceTree = "<group>"; };
 		04C5D70B1BE89FE500631501 /* TSMessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TSMessage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C5D70D1BE89FE500631501 /* TSMessages-ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TSMessages-ios.h"; sourceTree = "<group>"; };
 		04C5D70F1BE89FE500631501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04C5D7181BE8A07100631501 /* TSBlurView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TSBlurView.h; path = ../Pod/Classes/TSBlurView.h; sourceTree = "<group>"; };
-		04C5D7191BE8A07100631501 /* TSMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TSMessage.h; path = ../Pod/Classes/TSMessage.h; sourceTree = "<group>"; };
-		04C5D71A1BE8A07100631501 /* TSMessageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TSMessageView.h; path = ../Pod/Classes/TSMessageView.h; sourceTree = "<group>"; };
 		06A5FE5AC1E4219F023CBC21 /* Pods-TSMessages.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSMessages.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TSMessages/Pods-TSMessages.debug.xcconfig"; sourceTree = "<group>"; };
 		26865537F27698DE43A2B821 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3DA65AE9564E43409150BC5E /* libPods-TSMessages.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSMessages.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,6 +149,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0401B82E1BEAF03D00BB9F42 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0401B82F1BEAF03D00BB9F42 /* .gitkeep */,
+				0401B8301BEAF03D00BB9F42 /* TSBlurView.h */,
+				0401B8311BEAF03D00BB9F42 /* TSBlurView.m */,
+				0401B8321BEAF03D00BB9F42 /* TSMessage.h */,
+				0401B8331BEAF03D00BB9F42 /* TSMessage.m */,
+				0401B8341BEAF03D00BB9F42 /* TSMessageView.h */,
+				0401B8351BEAF03D00BB9F42 /* TSMessageView.m */,
+			);
+			name = Classes;
+			path = ../Pod/Classes;
+			sourceTree = "<group>";
+		};
 		04C5D70C1BE89FE500631501 /* TSMessages-ios */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,9 +187,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				04C5D7181BE8A07100631501 /* TSBlurView.h */,
-				04C5D7191BE8A07100631501 /* TSMessage.h */,
-				04C5D71A1BE8A07100631501 /* TSMessageView.h */,
+				0401B82E1BEAF03D00BB9F42 /* Classes */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* TSMessages */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -261,9 +285,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04C5D71B1BE8A07100631501 /* TSBlurView.h in Headers */,
-				04C5D71C1BE8A07100631501 /* TSMessage.h in Headers */,
-				04C5D71D1BE8A07100631501 /* TSMessageView.h in Headers */,
+				0401B83E1BEAF05200BB9F42 /* TSMessageView.h in Headers */,
+				0401B83A1BEAF04500BB9F42 /* TSBlurView.h in Headers */,
+				0401B83C1BEAF04C00BB9F42 /* TSMessage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +405,7 @@
 			files = (
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */,
+				0401B8361BEAF03D00BB9F42 /* .gitkeep in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 				CAFB4A5D19ADC8CA004B4A82 /* AlternativeDesign.json in Resources */,
 			);
@@ -464,6 +489,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0401B83F1BEAF05600BB9F42 /* TSMessageView.m in Sources */,
+				0401B83D1BEAF04F00BB9F42 /* TSMessage.m in Sources */,
+				0401B83B1BEAF04900BB9F42 /* TSBlurView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,10 +499,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0401B8381BEAF03D00BB9F42 /* TSMessage.m in Sources */,
 				CACA6CED19AB263400824626 /* TSDemoViewController.m in Sources */,
+				0401B8371BEAF03D00BB9F42 /* TSBlurView.m in Sources */,
 				6003F59E195388D20070C39A /* TSAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* TSViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				0401B8391BEAF03D00BB9F42 /* TSMessageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
