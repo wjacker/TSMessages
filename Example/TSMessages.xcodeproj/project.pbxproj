@@ -17,6 +17,9 @@
 		0401B83D1BEAF04F00BB9F42 /* TSMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401B8331BEAF03D00BB9F42 /* TSMessage.m */; settings = {ASSET_TAGS = (); }; };
 		0401B83E1BEAF05200BB9F42 /* TSMessageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0401B8341BEAF03D00BB9F42 /* TSMessageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0401B83F1BEAF05600BB9F42 /* TSMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401B8351BEAF03D00BB9F42 /* TSMessageView.m */; settings = {ASSET_TAGS = (); }; };
+		0401B8481BEAF23900BB9F42 /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401B8471BEAF23900BB9F42 /* HexColors.m */; settings = {ASSET_TAGS = (); }; };
+		0401B8491BEAF24A00BB9F42 /* HexColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 0401B8461BEAF23900BB9F42 /* HexColors.h */; settings = {ASSET_TAGS = (); }; };
+		0401B84A1BEAF25100BB9F42 /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401B8471BEAF23900BB9F42 /* HexColors.m */; settings = {ASSET_TAGS = (); }; };
 		04C5D7121BE89FE500631501 /* TSMessage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C5D70B1BE89FE500631501 /* TSMessage.framework */; };
 		04C5D7141BE89FE500631501 /* TSMessage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04C5D70B1BE89FE500631501 /* TSMessage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1687DD9DDD3F49028DE52098 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D24C674F90784EC4AFFD8541 /* libPods-Tests.a */; };
@@ -78,6 +81,11 @@
 		0401B8331BEAF03D00BB9F42 /* TSMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMessage.m; sourceTree = "<group>"; };
 		0401B8341BEAF03D00BB9F42 /* TSMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMessageView.h; sourceTree = "<group>"; };
 		0401B8351BEAF03D00BB9F42 /* TSMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMessageView.m; sourceTree = "<group>"; };
+		0401B8401BEAF11F00BB9F42 /* libPods-Tests-HexColors.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Tests-HexColors.a"; path = "Pods/build/Debug-iphoneos/libPods-Tests-HexColors.a"; sourceTree = "<group>"; };
+		0401B8421BEAF19400BB9F42 /* libPods-TSMessages-HexColors.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-TSMessages-HexColors.a"; path = "Pods/build/Debug-iphoneos/libPods-TSMessages-HexColors.a"; sourceTree = "<group>"; };
+		0401B8441BEAF1F000BB9F42 /* libPods-TSMessages-HexColors.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-TSMessages-HexColors.a"; path = "Pods/build/Debug-iphoneos/libPods-TSMessages-HexColors.a"; sourceTree = "<group>"; };
+		0401B8461BEAF23900BB9F42 /* HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexColors.h; sourceTree = "<group>"; };
+		0401B8471BEAF23900BB9F42 /* HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexColors.m; sourceTree = "<group>"; };
 		04C5D70B1BE89FE500631501 /* TSMessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TSMessage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C5D70D1BE89FE500631501 /* TSMessages-ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TSMessages-ios.h"; sourceTree = "<group>"; };
 		04C5D70F1BE89FE500631501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -152,6 +160,8 @@
 		0401B82E1BEAF03D00BB9F42 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0401B8461BEAF23900BB9F42 /* HexColors.h */,
+				0401B8471BEAF23900BB9F42 /* HexColors.m */,
 				0401B82F1BEAF03D00BB9F42 /* .gitkeep */,
 				0401B8301BEAF03D00BB9F42 /* TSBlurView.h */,
 				0401B8311BEAF03D00BB9F42 /* TSBlurView.m */,
@@ -211,6 +221,9 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0401B8441BEAF1F000BB9F42 /* libPods-TSMessages-HexColors.a */,
+				0401B8421BEAF19400BB9F42 /* libPods-TSMessages-HexColors.a */,
+				0401B8401BEAF11F00BB9F42 /* libPods-Tests-HexColors.a */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -285,6 +298,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0401B8491BEAF24A00BB9F42 /* HexColors.h in Headers */,
 				0401B83E1BEAF05200BB9F42 /* TSMessageView.h in Headers */,
 				0401B83A1BEAF04500BB9F42 /* TSBlurView.h in Headers */,
 				0401B83C1BEAF04C00BB9F42 /* TSMessage.h in Headers */,
@@ -490,6 +504,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0401B83F1BEAF05600BB9F42 /* TSMessageView.m in Sources */,
+				0401B84A1BEAF25100BB9F42 /* HexColors.m in Sources */,
 				0401B83D1BEAF04F00BB9F42 /* TSMessage.m in Sources */,
 				0401B83B1BEAF04900BB9F42 /* TSBlurView.m in Sources */,
 			);
@@ -504,6 +519,7 @@
 				0401B8371BEAF03D00BB9F42 /* TSBlurView.m in Sources */,
 				6003F59E195388D20070C39A /* TSAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* TSViewController.m in Sources */,
+				0401B8481BEAF23900BB9F42 /* HexColors.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				0401B8391BEAF03D00BB9F42 /* TSMessageView.m in Sources */,
 			);
@@ -581,6 +597,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.TSMessages-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -612,6 +632,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.TSMessages-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
