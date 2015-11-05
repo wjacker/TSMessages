@@ -17,7 +17,3 @@ FOUNDATION_EXPORT const unsigned char TSMessages_iosVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <TSMessages_ios/PublicHeader.h>
 
 
-
-#import "TSMessage.h"
-#import "TSBlurView.h"
-#import "TSMessageView.h"
