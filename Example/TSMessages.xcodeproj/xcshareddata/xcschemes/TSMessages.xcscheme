@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "04C5D70A1BE89FE500631501"
-               BuildableName = "TSMessage.framework"
-               BlueprintName = "TSMessage"
+               BuildableName = "TSMessages.framework"
+               BlueprintName = "TSMessages"
                ReferencedContainer = "container:TSMessages.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "04C5D70A1BE89FE500631501"
-            BuildableName = "TSMessage.framework"
-            BlueprintName = "TSMessage"
+            BuildableName = "TSMessages.framework"
+            BlueprintName = "TSMessages"
             ReferencedContainer = "container:TSMessages.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "04C5D70A1BE89FE500631501"
-            BuildableName = "TSMessage.framework"
-            BlueprintName = "TSMessage"
+            BuildableName = "TSMessages.framework"
+            BlueprintName = "TSMessages"
             ReferencedContainer = "container:TSMessages.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
