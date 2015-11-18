@@ -20,7 +20,7 @@
     [TSMessage setDefaultViewController:self];
     [TSMessage setDelegate:self];
     self.wantsFullScreenLayout = YES;
-    [self.navigationController.navigationBar setTranslucent:YES];
+    [self.navigationController.navigationBar setTranslucent:NO];
 }
 
 - (IBAction)didTapError:(id)sender

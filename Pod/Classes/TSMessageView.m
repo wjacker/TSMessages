@@ -268,7 +268,10 @@ canBeDismissedByUser:(BOOL)dismissingEnabled
             // On iOS 7 and above use a blur layer instead (not yet finished)
             _backgroundBlurView = [[TSBlurView alloc] init];
             self.backgroundBlurView.autoresizingMask = (UIViewAutoresizingFlexibleWidth);
-            self.backgroundBlurView.blurTintColor = [UIColor colorWithHexString:current[@"backgroundColor"]];
+            
+            CGFloat alpha = [current[@"backgroundAlpha"] floatValue] > 0 ? [current[@"backgroundAlpha"] floatValue] : 1;
+            
+            self.backgroundBlurView.blurTintColor = [[UIColor colorWithHexString:current[@"backgroundColor"]] colorWithAlphaComponent:alpha];
             [self addSubview:self.backgroundBlurView];
         }
 

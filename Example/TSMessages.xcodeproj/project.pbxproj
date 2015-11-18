@@ -8,16 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0401B8361BEAF03D00BB9F42 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 0401B82F1BEAF03D00BB9F42 /* .gitkeep */; };
-		0401B8371BEAF03D00BB9F42 /* TSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401B8311BEAF03D00BB9F42 /* TSBlurView.m */; };
-		0401B8381BEAF03D00BB9F42 /* TSMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401B8331BEAF03D00BB9F42 /* TSMessage.m */; };
-		0401B8391BEAF03D00BB9F42 /* TSMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401B8351BEAF03D00BB9F42 /* TSMessageView.m */; };
 		0401B83A1BEAF04500BB9F42 /* TSBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0401B8301BEAF03D00BB9F42 /* TSBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0401B83B1BEAF04900BB9F42 /* TSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401B8311BEAF03D00BB9F42 /* TSBlurView.m */; };
 		0401B83C1BEAF04C00BB9F42 /* TSMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0401B8321BEAF03D00BB9F42 /* TSMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0401B83D1BEAF04F00BB9F42 /* TSMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401B8331BEAF03D00BB9F42 /* TSMessage.m */; };
 		0401B83E1BEAF05200BB9F42 /* TSMessageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0401B8341BEAF03D00BB9F42 /* TSMessageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0401B83F1BEAF05600BB9F42 /* TSMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401B8351BEAF03D00BB9F42 /* TSMessageView.m */; };
-		0401B8481BEAF23900BB9F42 /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401B8471BEAF23900BB9F42 /* HexColors.m */; };
 		0401B8491BEAF24A00BB9F42 /* HexColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 0401B8461BEAF23900BB9F42 /* HexColors.h */; };
 		0401B84A1BEAF25100BB9F42 /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401B8471BEAF23900BB9F42 /* HexColors.m */; };
 		0401B86B1BEAF4AE00BB9F42 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 0401B8591BEAF4AE00BB9F42 /* .gitkeep */; };
@@ -629,14 +625,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0401B8381BEAF03D00BB9F42 /* TSMessage.m in Sources */,
 				CACA6CED19AB263400824626 /* TSDemoViewController.m in Sources */,
-				0401B8371BEAF03D00BB9F42 /* TSBlurView.m in Sources */,
 				6003F59E195388D20070C39A /* TSAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* TSViewController.m in Sources */,
-				0401B8481BEAF23900BB9F42 /* HexColors.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				0401B8391BEAF03D00BB9F42 /* TSMessageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -836,6 +828,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TSMessages/TSMessages-Prefix.pch";
 				INFOPLIST_FILE = "TSMessages/TSMessages-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -851,6 +844,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TSMessages/TSMessages-Prefix.pch";
 				INFOPLIST_FILE = "TSMessages/TSMessages-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

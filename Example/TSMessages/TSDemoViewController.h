@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TSMessageView.h"
+#import "TSMessage.h"
 
 @interface TSDemoViewController : UIViewController <TSMessageViewProtocol>
 
