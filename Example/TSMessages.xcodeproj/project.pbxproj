@@ -55,6 +55,7 @@
 		0401B88B1BEAF4C000BB9F42 /* NotificationButtonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 0401B8681BEAF4AE00BB9F42 /* NotificationButtonBackground.png */; };
 		0401B88C1BEAF4C000BB9F42 /* NotificationButtonBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0401B8691BEAF4AE00BB9F42 /* NotificationButtonBackground@2x.png */; };
 		0401B88D1BEAF4C000BB9F42 /* TSMessagesDefaultDesign.json in Resources */ = {isa = PBXBuildFile; fileRef = 0401B86A1BEAF4AE00BB9F42 /* TSMessagesDefaultDesign.json */; };
+		0420221F1BFC62E1009C6568 /* TSMessage_Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 0420221E1BFC62E1009C6568 /* TSMessage_Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04C5D7121BE89FE500631501 /* TSMessage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C5D70B1BE89FE500631501 /* TSMessage.framework */; };
 		04C5D7141BE89FE500631501 /* TSMessage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04C5D70B1BE89FE500631501 /* TSMessage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1687DD9DDD3F49028DE52098 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D24C674F90784EC4AFFD8541 /* libPods-Tests.a */; };
@@ -139,6 +140,7 @@
 		0401B8681BEAF4AE00BB9F42 /* NotificationButtonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NotificationButtonBackground.png; sourceTree = "<group>"; };
 		0401B8691BEAF4AE00BB9F42 /* NotificationButtonBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NotificationButtonBackground@2x.png"; sourceTree = "<group>"; };
 		0401B86A1BEAF4AE00BB9F42 /* TSMessagesDefaultDesign.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TSMessagesDefaultDesign.json; sourceTree = "<group>"; };
+		0420221E1BFC62E1009C6568 /* TSMessage_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMessage_Header.h; sourceTree = "<group>"; };
 		04C5D70B1BE89FE500631501 /* TSMessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TSMessage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C5D70D1BE89FE500631501 /* TSMessages-ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TSMessages-ios.h"; sourceTree = "<group>"; };
 		04C5D70F1BE89FE500631501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -213,6 +215,7 @@
 		0401B82E1BEAF03D00BB9F42 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0420221E1BFC62E1009C6568 /* TSMessage_Header.h */,
 				0401B8461BEAF23900BB9F42 /* HexColors.h */,
 				0401B8471BEAF23900BB9F42 /* HexColors.m */,
 				0401B82F1BEAF03D00BB9F42 /* .gitkeep */,
@@ -378,6 +381,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0420221F1BFC62E1009C6568 /* TSMessage_Header.h in Headers */,
 				0401B8491BEAF24A00BB9F42 /* HexColors.h in Headers */,
 				0401B83E1BEAF05200BB9F42 /* TSMessageView.h in Headers */,
 				0401B83A1BEAF04500BB9F42 /* TSBlurView.h in Headers */,
