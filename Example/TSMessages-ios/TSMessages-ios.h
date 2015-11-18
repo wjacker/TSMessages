@@ -7,9 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TSMessage.h"
-#import "TSMessageView.h"
-#import "TSBlurView.h"
 
 //! Project version number for TSMessages-ios.
 FOUNDATION_EXPORT double TSMessages_iosVersionNumber;

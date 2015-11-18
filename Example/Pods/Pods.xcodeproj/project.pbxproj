@@ -12,7 +12,6 @@
 		01D7341343EDFA837ECC7832 /* EXPMatchers+haveCountOf.m in Sources */ = {isa = PBXBuildFile; fileRef = C5476A427CF343DD9F7266E2 /* EXPMatchers+haveCountOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		026D6AE5BBF525FB19CB2BBE /* SPTXCTestReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 922DFF3D04AF6FFE5163E23B /* SPTXCTestReporter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		03DDB367853A946278715DB2 /* NSObject+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = B93CCA857D88BF566310D581 /* NSObject+Expecta.h */; };
-		042022221BFC6346009C6568 /* TSMessage_Header.m in Sources */ = {isa = PBXBuildFile; fileRef = 042022211BFC6346009C6568 /* TSMessage_Header.m */; };
 		063DAD820BAE34130333B9AF /* SPTSharedExampleGroups.h in Headers */ = {isa = PBXBuildFile; fileRef = CE69DFF71D0F0A079E606F1F /* SPTSharedExampleGroups.h */; };
 		076356B44DBDCAD3F13041B0 /* TSMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8866017319F67DB02473D8 /* TSMessage.h */; };
 		083BB1FF694B4EACADF77313 /* SPTXCTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 578DCF301CD7C66F065C9CFE /* SPTXCTestCase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -252,8 +251,6 @@
 		014CBAF405ECEB5C265ED047 /* Pods-Tests-Expecta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-Expecta-dummy.m"; sourceTree = "<group>"; };
 		02446B0B812DDBABA5C1001E /* EXPBlockDefinedMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPBlockDefinedMatcher.m; path = src/EXPBlockDefinedMatcher.m; sourceTree = "<group>"; };
 		02E4C392690BCF79C76869C0 /* NSValue+Expecta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+Expecta.m"; path = "src/NSValue+Expecta.m"; sourceTree = "<group>"; };
-		042022201BFC6346009C6568 /* TSMessage_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMessage_Header.h; sourceTree = "<group>"; };
-		042022211BFC6346009C6568 /* TSMessage_Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMessage_Header.m; sourceTree = "<group>"; };
 		04431932B32C8904D1236FCF /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Compare.m"; sourceTree = "<group>"; };
 		0906DB23117BB3E0C7CE8541 /* EXPMatchers+raise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raise.m"; path = "src/matchers/EXPMatchers+raise.m"; sourceTree = "<group>"; };
 		0950707352B9F060E4A07F79 /* TSMessageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TSMessageView.m; sourceTree = "<group>"; };
@@ -555,8 +552,6 @@
 		27200C6AA85A1D0471C1FA86 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				042022201BFC6346009C6568 /* TSMessage_Header.h */,
-				042022211BFC6346009C6568 /* TSMessage_Header.m */,
 				A96C3891F8A5166605629D82 /* TSBlurView.h */,
 				9173F3DE729EC9025FF9329A /* TSBlurView.m */,
 				EE8866017319F67DB02473D8 /* TSMessage.h */,
@@ -1352,7 +1347,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7E9BFBED202A60B683594FF /* Pods-TSMessages-dummy.m in Sources */,
-				042022221BFC6346009C6568 /* TSMessage_Header.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

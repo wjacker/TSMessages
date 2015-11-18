@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TSMessageView.h"
+#import "TSBlurView.h"
 // NS_ENUM is now the preferred way to do typedefs. It gives the compiler and debugger more information, which helps everyone.
 // When using SDK 6 or later, NS_ENUM is defined by Apple, so this block does nothing.
 // For SDK 5 or earlier, this is the same definition block Apple uses.
@@ -27,8 +29,6 @@
 
 #define TS_SYSTEM_VERSION_LESS_THAN(v)            ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
 
-@class TSMessageView;
-
 
 /** Define on which position a specific TSMessage should be displayed */
 @protocol TSMessageViewProtocol<NSObject>
@@ -41,26 +41,6 @@
 - (void)customizeMessageView:(TSMessageView *)messageView;
 
 @end
-
-
-
-typedef NS_ENUM(NSInteger, TSMessageNotificationType) {
-    TSMessageNotificationTypeMessage = 0,
-    TSMessageNotificationTypeWarning,
-    TSMessageNotificationTypeError,
-    TSMessageNotificationTypeSuccess
-};
-typedef NS_ENUM(NSInteger, TSMessageNotificationPosition) {
-    TSMessageNotificationPositionTop = 0,
-    TSMessageNotificationPositionNavBarOverlay,
-    TSMessageNotificationPositionBottom
-};
-
-/** This enum can be passed to the duration parameter */
-typedef NS_ENUM(NSInteger,TSMessageNotificationDuration) {
-    TSMessageNotificationDurationAutomatic = 0,
-    TSMessageNotificationDurationEndless = -1 // The notification is displayed until the user dismissed it or it is dismissed by calling dismissActiveNotification
-};
 
 
 @interface TSMessage : NSObject

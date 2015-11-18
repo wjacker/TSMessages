@@ -7,11 +7,29 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TSMessage.h"
+
+
+typedef NS_ENUM(NSInteger, TSMessageNotificationType) {
+    TSMessageNotificationTypeMessage = 0,
+    TSMessageNotificationTypeWarning,
+    TSMessageNotificationTypeError,
+    TSMessageNotificationTypeSuccess
+};
+typedef NS_ENUM(NSInteger, TSMessageNotificationPosition) {
+    TSMessageNotificationPositionTop = 0,
+    TSMessageNotificationPositionNavBarOverlay,
+    TSMessageNotificationPositionBottom
+};
+
+/** This enum can be passed to the duration parameter */
+typedef NS_ENUM(NSInteger,TSMessageNotificationDuration) {
+    TSMessageNotificationDurationAutomatic = 0,
+    TSMessageNotificationDurationEndless = -1 // The notification is displayed until the user dismissed it or it is dismissed by calling dismissActiveNotification
+};
 
 #define TSMessageViewAlpha 0.95
 
-
+@class TSMessage;
 
 
 @interface TSMessageView : UIView
