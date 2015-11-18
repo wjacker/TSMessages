@@ -271,7 +271,8 @@ canBeDismissedByUser:(BOOL)dismissingEnabled
             
             CGFloat alpha = [current[@"backgroundAlpha"] floatValue] > 0 ? [current[@"backgroundAlpha"] floatValue] : 1;
             
-            self.backgroundBlurView.blurTintColor = [[UIColor colorWithHexString:current[@"backgroundColor"]] colorWithAlphaComponent:alpha];
+            self.backgroundBlurView.blurTintColor = [UIColor colorWithHexString:current[@"backgroundColor"]];
+            self.backgroundBlurView.alpha = alpha;
             [self addSubview:self.backgroundBlurView];
         }
 
